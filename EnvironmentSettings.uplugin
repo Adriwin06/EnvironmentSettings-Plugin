@@ -1,0 +1,25 @@
+{
+	"FileVersion": 3,
+	"Version": 1,
+	"VersionName": "0.1",
+	"FriendlyName": "Environment Settings",
+	"Description": "A time-of-day environment system built around keyframed data assets. Each keyframe holds post-process and lighting settings such as bloom, vignette, and LUTs, while the timeline defines when they occur. All parameters are blended over time for seamless transitions. Based on the EnvironmentSettings system from Burnout Paradise.",
+	"Category": "Runtime",
+	"CreatedBy": "Adriwin",
+	"CreatedByURL": "https://github.com/Adriwin06",
+	"DocsURL": "",
+	"MarketplaceURL": "https://github.com/Adriwin06/EnvironmentSettings-Plugin",
+	"SupportURL": "https://github.com/Adriwin06/EnvironmentSettings-Plugin/issues",
+	"CanContainContent": true,
+	"IsBetaVersion": false,
+	"IsExperimentalVersion": false,
+	"Installed": false,
+	"Modules": [
+		{
+			"Name": "EnvironmentSettings",
+			"Type": "Runtime",
+			"LoadingPhase": "Default",
+			"EnabledByDefault": true
+		}
+	]
+}
