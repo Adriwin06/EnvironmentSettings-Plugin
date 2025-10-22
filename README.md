@@ -1,4 +1,5 @@
 # EnvironmentSettings-Plugin
+
 **EnvironmentSettings** is an Unreal Engine plugin that recreates *Burnout Paradise's* Environment Settings system for time-of-day driven post effects and color grading using **Timelines** and **Keyframes**.
 
 Each **Timeline** holds multiple **Keyframes**, each defining how the environment should look at a specific time of day (in seconds since 00:00).
@@ -22,3 +23,8 @@ Every parameter from each Keyframe (such as bloom, vignette, or LUT), is smoothl
    Each Keyframe can define bloom, vignette, LUT, and lighting parameters *(currently unimplemented, might be deleted later on if it is too difficult to implement because of the differences between Burnout Paradise's engine, RenderWare, and Unreal Engine)*.
    If you want to add new post-process effects, just extend the Data Asset and update the Blueprint logic accordingly.
 
+---
+
+## 🏁 Origin
+
+Originally made for my work in progress [Burnout Paradise Remake](https://gist.github.com/Adriwin06/bc719a3b14f517c6d3f32ede8940b61b), I decided to release it here because this system is genius for environment artists and I think everyone should have access to it.
