@@ -28,3 +28,14 @@ Every parameter from each Keyframe (such as bloom, vignette, or LUT), is smoothl
 ## 🏁 Origin
 
 Originally made for my work in progress [Burnout Paradise Remake](https://gist.github.com/Adriwin06/bc719a3b14f517c6d3f32ede8940b61b), I decided to release it here because this system is genius for environment artists and I think everyone should have access to it.
+
+---
+
+## ⚠️ Disclaimer
+This plugin was built for research and educational purposes.  
+It contains data directly extracted from *Burnout Paradise* to reproduce its environment system for study and experimentation.
+
+If you plan to use this in a public or commercial project, you should replace the included assets and values (LUTs, keyframes, etc.) with your own.
+
+So, while all source code, Blueprints, and original materials in this repository
+are under an open-source license (see LICENSE file), those extracted data are ©Electronic Arts and are included here strictly for research and educational purposes; and may not be used in any commercial or redistributed work.
